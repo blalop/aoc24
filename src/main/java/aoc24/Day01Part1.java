@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.IntStream;
 
 public class Day01Part1 {
-    public static void main(String[] args) {
+    void main() {
         String input = Utils.readFile("/inputs/01-input.txt");
 
         List<Integer> first = input.lines()
