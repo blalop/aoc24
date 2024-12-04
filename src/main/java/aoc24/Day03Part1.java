@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Day03Part1 {
-    void main() {
+    public static void main(String[] args) {
         String input = Utils.readFile("/inputs/03-input.txt");
 
         int sum = 0;
